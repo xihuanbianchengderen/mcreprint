@@ -99,7 +99,7 @@ for z in range(50):
         block = Block(position = (x,0,z))
         block.y = floor(noise([x/scale,z/scale])*8)
 
-player = FirstPersonController()
+player = FirstPersonControlle()
 sky = Sky()
 hand = Hand()
 
